@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 sec math game</title>
+    <link rel="stylesheet" href="math game style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <div class="container">
+        <div class="title"><h2>10 sconds of math</h2></div>
+        <div class="mid-cont">
+            <div class="select-box">
+            <div class="select-title"><h3>Number Limit:<span class="limit">10</span></h3></div>
+            <label for="range"><input class="range" type="range" min="1" max="10" value="10"></label> 
+            <div class="select-math">
+             <div class="sel"><input class="add" type="radio" > <span>&#43;</span> Add</div>
+             <div class="sel"><input class="sub" type="radio"> <span>&#8722;</span> Sub</div>  
+             <div class="sel"><input class="mul" type="radio"> <span>&#215;</span> Mulitply</div>  
+             <div class="sel"><input class="div" type="radio"> <span>&#247;</span> Divide</div>  
+             <div class="sel"><input class="random" type="radio" checked> random</div>  
+            </div>
+            <div class="btns"> 
+                <button class="start">Start</button>
+                <button class="reset">Reset</button>
+            </div>                  
+            </div>
+            <div class="seconds-box"><div class="sec">10</div>
+            <h4>seconds left</h4></div>
+        </div>
+        <div class="bottom-cont">
+            <div class="math">here your math</div>
+            <input type="number" class="ans" placeholder="Enter answer">
+            <div class="answer">Try your best</div>
+        </div>
+
+    </div>
+
+
+<script src="math game script.js"></script>    
+</body>
+</html>
